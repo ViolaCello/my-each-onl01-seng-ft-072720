@@ -5,7 +5,7 @@ def my_each(num) # put argument(s) here
   
   while i < num.length do
     yield 
-    puts num[i]
+    print num[i]
     i = i + 1
   end
   
