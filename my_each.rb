@@ -10,7 +10,7 @@ def my_each(num) # put argument(s) here
     i = i + 1
   end
   
-  num
+
 
   
 end
