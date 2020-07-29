@@ -6,6 +6,7 @@ def my_each(num) # put argument(s) here
   while i < num.length do
     yield 
     print num[i]
+    num
     i = i + 1
   end
   
