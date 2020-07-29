@@ -1,6 +1,6 @@
 def my_each(num) # put argument(s) here
   # code here
-  
+    if block_given?
   i = 0 
   
   while i < num.length do
@@ -11,10 +11,10 @@ def my_each(num) # put argument(s) here
   
   num
   
+else
   
   
-  
-  
+  num
   
   
   
