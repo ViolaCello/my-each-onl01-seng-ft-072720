@@ -4,9 +4,9 @@ def my_each(num) # put argument(s) here
   i = 0 
   
   while i < num.length do
-    yield 
+    yield(num[i])
     print num[i]
-    num
+
     i = i + 1
   end
   
